@@ -1,0 +1,60 @@
+body {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+#catalog {
+    display: flex;
+    border-collapse: unset;
+}
+
+.productCard {
+    width: 150px;
+    text-align: center;
+
+}
+
+#basket {
+    display: flex;
+}
+
+#basket > img:hover {
+    height: 44px;
+    width: 44px;
+}
+
+#basket > img {
+    position: absolute;
+    margin-right: 20px;
+    margin-top: 10px;
+    right: 0;
+}
+
+#basket > ol {
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
+    margin-top: 55px;
+}
+
+.basketCount {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: absolute;
+    right: 13px;
+    top: 12px;
+    width: 19px;
+    height: 19px;
+    background: #c42929;
+    border-radius: 50%;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
